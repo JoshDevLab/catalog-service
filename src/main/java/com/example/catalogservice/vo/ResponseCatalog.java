@@ -8,8 +8,8 @@ import java.util.Date;
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class ResponseCatalog {
-    private String product_id;
-    private String product_name;
+    private String productId;
+    private String productName;
     private Integer unitPrice;
     private Integer stock;
     private Date createAt;
