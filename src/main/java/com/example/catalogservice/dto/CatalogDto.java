@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 @Data
 public class CatalogDto implements Serializable {
-    private String product_id;
+    private String productId;
     private Integer qty;
     private Integer unitPrice;
     private Integer totalPrice;
